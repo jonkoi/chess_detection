@@ -36,8 +36,14 @@ cd ../..
 
 * Download my [fine tuned model]() (waiting upload...) and optionally [test images]() (waiting upload...). Extract them in the main repo folder.
 
+
+For simgle images:
 ```shell
 python gui.py
+```
+For bulk testing of test images:
+```shell
+python test.py
 ```
 
 ## Example result
