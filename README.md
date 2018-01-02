@@ -35,7 +35,7 @@ set PYTHONPATH=PATH\TO\models\research;PATH\TO\models\research\slim (for windows
 cd ../..
 ```
 
-* Download my [fine tuned model]() (waiting upload...) and optionally [test images]() (waiting upload...). Extract them in the main repo folder.
+* Download my [fine tuned model](https://drive.google.com/open?id=1NFXGsBops5NeDX_pl_mvorflY67D_PJx) and optionally [test images]() (waiting upload...). Extract them in the main repo folder.
 
 
 For simgle images:
@@ -52,7 +52,7 @@ python test.py
   <img src="https://github.com/jonkoi/chess_detection/blob/master/sample_result.png"><br><br>
 </div>
 
-[Here is video of the test.]()
+[Here is video of the test.](https://youtu.be/6t458TDVPqU)
 
 ## Disclaimer
 The piece detection module uses deep learning (not mobilenet) which can make inference very slow. The process is sluggish even with a GTX860M.
