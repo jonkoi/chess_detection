@@ -6,6 +6,7 @@ For chessboard grid detection:
 - Iterative grid fitting from [this](https://github.com/Elucidation/ChessboardDetect/blob/master/FindChessboards.py)
 
 For piece detection:
+- Data generation using LabalImg (a lot of time spent)
 - Fine tune pretrained [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2017_11_08.tar.gz) from object detection api
 
 ## Dependencies (not too sure)
