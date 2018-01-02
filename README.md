@@ -4,6 +4,7 @@
 For chessboard grid detection:
 - X-corner detection using [Automatic Chessboard Corner Detection Method](https://www.researchgate.net/publication/282446068_Automatic_chessboard_corner_detection_method)
 - Iterative grid fitting from [this](https://github.com/Elucidation/ChessboardDetect/blob/master/FindChessboards.py)
+
 For piece detection:
 - Fine tune pretrained [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2017_11_08.tar.gz) from object detection api
 
