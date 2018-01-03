@@ -43,6 +43,7 @@ cd ../..
 ```
 
 * Download my [fine tuned model](https://drive.google.com/open?id=1NFXGsBops5NeDX_pl_mvorflY67D_PJx) and optionally [test images](https://drive.google.com/open?id=1XE9Jt9t-5cup5pItwRKyGYKEI29r1ncS) (not involved in training). Extract them in the main repo folder.
+* [Train dataset](https://drive.google.com/open?id=1nFbKHaOaDsqTTpPCmfk8ZrisPN5apD8O)
 
 
 For simgle images:
