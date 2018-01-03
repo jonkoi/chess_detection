@@ -9,6 +9,13 @@ For piece detection:
 - Data generation using LabalImg (a lot of time spent)
 - Fine tune pretrained [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2017_11_08.tar.gz) from object detection api
 
+Files:
+- detection.py : piece detection
+- main.py : X-corner detection, grid-fitting, integration with piece detection
+- gui.py : runnable file to use this pipeline
+- test.py : bulk testing of images in test folder
+- ...
+
 ## Dependencies (not too sure)
 
 * Python 3.6
@@ -35,7 +42,7 @@ set PYTHONPATH=PATH\TO\models\research;PATH\TO\models\research\slim (for windows
 cd ../..
 ```
 
-* Download my [fine tuned model](https://drive.google.com/open?id=1NFXGsBops5NeDX_pl_mvorflY67D_PJx) and optionally [test images]() (waiting upload...). Extract them in the main repo folder.
+* Download my [fine tuned model](https://drive.google.com/open?id=1NFXGsBops5NeDX_pl_mvorflY67D_PJx) and optionally [test images](https://drive.google.com/open?id=1XE9Jt9t-5cup5pItwRKyGYKEI29r1ncS) (not involved in training). Extract them in the main repo folder.
 
 
 For simgle images:
